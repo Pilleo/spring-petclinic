@@ -29,7 +29,43 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PetClinicApplication {
 
 	public static void main(String[] args) {
-        new  java.io.FileInputStream("");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          Obkect g =  new  java.io.FileInputStream("");
+        System.out.println(g.toString());
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 		SpringApplication.run(PetClinicApplication.class, args);
 	}
 
