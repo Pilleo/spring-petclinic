@@ -130,8 +130,6 @@ class ClinicServiceTests {
 
 		// retrieving new name from database
 		owner = this.owners.findById(1);
-
-
 	}
 
 	@Test
@@ -139,7 +137,6 @@ class ClinicServiceTests {
 		Pet pet7 = this.pets.findById(7);
 		assertThat(pet7.getName()).startsWith("Samantha");
 		assertThat(pet7.getOwner().getFirstName()).isEqualTo("Jean");
-
 	}
 
 	@Test
