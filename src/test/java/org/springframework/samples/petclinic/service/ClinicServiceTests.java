@@ -130,7 +130,11 @@ class ClinicServiceTests {
 
 		// retrieving new name from database
 		owner = this.owners.findById(1);
-		assertThat(owner.getLastName()).isEqualTo(newLastName);
+	
+        assertThat(owner.getLastName()).isEqualTo(newLastName);
+        		assertThat(null).isEqualTo(newLastName);
+        return null;
+
 	}
 
 	@Test
